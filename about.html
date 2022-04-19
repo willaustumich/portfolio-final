@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>About</title>
+</head>
+
+<body>
+	<header>
+		<!-- <img src="images/ss_logo.png" alt="" id = "logo"> -->
+		<a href="#main" class="skip">Skip to main content</a>
+		<nav class="navbar">
+			<h1 class="logo"><a href="#">Cooking with Austin!</a></h1>
+			<ul class="navigation">
+				<li class="nav_item"><a href = "index.html">Home</a></li>
+				<li class="nav_item"><a href = "recipes.html">Recipes</a></li>
+				<li class="nav_item"><a href = "health.html">Health & Wellness</a></li>
+				<li class="nav_item"><a href = "about.html"> > About Me < </a></li>
+			</ul>
+		</nav>
+		<a href="#main" class="skip">Skip to main content</a>
+	</header>
+
+	<!-- code inspired by: https://stackoverflow.com/questions/62418249/css-flip-card-how-can-i-activate-the-flip-via-tab-so-it-is-keyboard-accessible -->
+	<main id="main">
+		<div class="flip-card">
+			<div class="flip-card-inner">
+				<a href="#" id="flip-card-inner">
+					<div class="flip-card-front">
+						<img src="images/black_chef_cooking.jpg" alt="a man smiling while cooking food in a kitchen">
+					</div>
+				</a>
+				<div class="flip-card-back">
+					<p>Flip your boring recipes on their head with inspiration from our variety of flavors</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- <img src="images/black_chef_cooking.jpg" alt="a man smiling while cooking food in a kitchen" width="200"> -->
+
+		<p>When I was younger, I was really (and I mean really) into Legos. I probably accumulated over a dozen sets 
+			during my childhood and could have had a dozen more if they weren’t so darn expensive. There’s something 
+			magical about taking a set of individual pieces and combining them to make something special. Of course, 
+			as time went on I started to grow away from the colorful blocks, but I still had a desire of build. That’s 
+			where my passion for cooking came in. Instead of taking 50 blocks and building a house, I was able to take 
+			a handful of ingredients and spices and turn them into a delicious meal.</p>
+		
+		<p>If it’s not clear by now, I love cooking. I’m a reformed picky eater who has finally seen the light. I missed 
+			out on most foods that weren’t tacos, pizza, and chicken nuggets for years, so I’m making up for it by being 
+			adventurous with what I eat and how I prepare it. I love spice, so you’ll see that as a theme in my favorite 
+			recipes, but spice is a double-edged sword. I’m a tech guy from a big city, so I spent a lot of time eating 
+			processed foods that lacked any nutritional value or was so overloaded with salt and sugar, you could hardly 
+			distinguish any other flavors. Because of that, I like to focus on working with natural foods when I can. 
+			Fresh fruits, vegetables, legumes, grains, herbs, and spices are key to building a memorable meal.</p>
+
+		<p>The recipes on this page are all dishes I’ve made more than once. The key here is to recognize that these recipes 
+			are simply guidelines for you to follow. Feel free to step outside them and play a bit with the level of seasoning, 
+			the cook times, and the types of ingredients. You might just find that your way is better than mine. If that’s the 
+			case, be sure to share your recipe with the rest of us. Don’t be stingy!</p>
+		
+		<form
+		action="https://formspree.io/f/xdobdgpl"
+		method="POST">
+		<fieldset>
+		  <legend>Contact Me</legend>
+
+		  <!-- First Name -->
+		  <label for="firstname_id">First Name</label>
+		  <input type="text" name="firstname" id="firstname_id" placeholder="First Name">
+
+		  <!-- Last Name -->
+		  <label for="lastname_id">Last Name</label>
+		  <input type="text" name="lastname" id="lastname_id" placeholder="Last Name">
+
+		  <!-- Email Address -->
+		  <label for="email_id">Email</label>
+		  <input type="email" name="email" id="email_id" placeholder="johndoe@mail.com">
+
+		  <!-- Phone Number -->
+		  <label for="phone_id">Phone Number</label>
+		  <input type="tel" name="phone_number" id="phone_id" placeholder="123-456-7890">
+
+		  <!-- Comments -->
+		  <label for="comment_id">Comments <i class="fa-solid fa-comment"></i></label>
+
+		  <textarea name="textarea" id="comment_id"></textarea>
+
+		  <!-- Submit Button -->
+		  <input type="submit" value="Submit">
+		</fieldset>
+	   </form>
+
+
+
+
+
+		</main>
+
+	<footer>
+		<p>Austin Williams &copy; 2022</p>
+	</footer>
+</body>
+</html>
