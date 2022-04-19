@@ -272,6 +272,11 @@ footer{
     animation-name: none;
   }
 
+  #parallax-holder{
+    background-attachment: initial;
+  }
+
+
 }
 
 
